@@ -28,3 +28,8 @@ Route::get('/listahan/delete-user/{id}', [UserController::class, 'delete_prompt'
 Route::get('/Edmar', function () {
     return view('user.edmar');
 });
+
+Route::get('/lorence', function () {
+    return view('user.lorence');
+});
+
