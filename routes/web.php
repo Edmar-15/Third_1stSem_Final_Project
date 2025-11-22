@@ -33,3 +33,6 @@ Route::get('/lorence', function () {
     return view('user.lorence');
 });
 
+Route::get('/rym', function () {
+    return view('rymuel');
+});
