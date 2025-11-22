@@ -24,3 +24,7 @@ Route::get('/listahan/delete-user', [UserController::class, 'delete_user'])->nam
 Route::post('/listahan/delete-user/{id}', [UserController::class, 'delete'])->name('user.delete');
 
 Route::get('/listahan/delete-user/{id}', [UserController::class, 'delete_prompt'])->name('user.delete_prompt');
+
+Route::get('/Aguiluz', function(){
+    return view('user.Agui');
+});
