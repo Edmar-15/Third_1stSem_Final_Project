@@ -36,3 +36,6 @@ Route::get('/lorence', function () {
 Route::get('/rym', function () {
     return view('rymuel');
 });
+Route::get('/Aguiluz', function(){
+    return view('user.Agui');
+});
